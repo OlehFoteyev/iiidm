@@ -28,7 +28,19 @@
                         </div>
                         <div class="col-md-6">
                             <h3>Оставить отзыв:</h3>
-                            {!! Form::open(['url'=>'review']) !!}
+                            @if (Auth::guest())
+                                <li>Для того чтобы оставить коментарий, Вам нужно  <a href="{{url('/register')}}">зарегистрироваться!</a></li>
+                                <div class="card">
+                                    <div class="card-block">
+                                        <form>
+                                            {{ csrf_field() }}
+                                            <div class="form-group">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            @else
+                                {!! Form::open(['url'=>'review']) !!}
                             <div class="form-group">
                                 {!! Form::textarea('comment',null,['class' => 'form-control','placeholder' => 'Напишите ваш комментарий']) !!}
                             </div>
@@ -41,6 +53,7 @@
                             </div>
 
                             {!! Form::close() !!}
+                                @endif
                         </div>
                     </div>
                 </div>
@@ -69,6 +82,7 @@
             </div>
         </div>
     </div>
+    @include('layouts.footer_partner_contacts')
 
     @include('layouts.footer')
 @endsection

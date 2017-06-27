@@ -5,7 +5,7 @@
                 <a href="#"><i class="fa fa-mobile" >+3 (073)103 19 22</i></a>
                 <a href="#"><i class="fa fa-mobile" >+3 (073)103 19 22</i></a>
                 <a href="#"><i class="fa fa-mobile" >+3 (073)103 19 22</i></a>
-                <a href="#"><i class="fa fa-envelope-o" aria-hidden="true">ooo@gmail.com</i></a><br>
+                <a href="#"><i class="fa fa-envelope-o" aria-hidden="true">IIIDM@gmail.com</i></a><br>
         </div>
         <div class="col-md-6">
             <h3>Работаем 7 дней в неделю</h3>

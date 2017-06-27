@@ -30,5 +30,8 @@
         </div>
     </div>
 
+    @include('layouts.footer_partner_contacts')
+
     @include('layouts.footer')
+
 @endsection

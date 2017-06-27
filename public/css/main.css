@@ -282,6 +282,7 @@ element.style.nav.navbar-nav {
 	text-align: center;
 	background-color: #b1c1bf;
 }
-#contacts {
-	background-color: #4AAAD2;
+#contacts  {
+	color: orangered;
+	background-color: lightsteelblue;
 }

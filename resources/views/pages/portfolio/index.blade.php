@@ -19,7 +19,7 @@
             <div class="main_content">
                 <div class="container-fluid">
                     <div class="row">
-                        <h2>Наши реализованые проекты</h2>
+                        <h3>Наши реализованые проекты</h3>
                         <div id="project" class="container-fluid">
                             @foreach($all as $photo)
                                 <div class="col-md-2">
